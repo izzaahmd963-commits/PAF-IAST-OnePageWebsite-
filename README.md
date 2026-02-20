@@ -1,2 +1,19 @@
-# PAF-IAST-OnePageWebsite-
-This is a single-page website of PAF-IAST. I have added PAF-IAST content in it, and the template was downloaded from free one-page templates.
+# Web Engineering Assignment 1 PAF-IAST-OnePageWebsite
+
+# PAF-IAST Single Page Website
+This is a single-page website for Pak-Austria Fachhochschule (PAF-IAST).
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+
+## Features
+- Responsive design
+- Smooth scrolling
+- Navigation bar
+- Contact section
+- Modern UI layout
+
+## Live Demo
+link (  )
