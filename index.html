@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PAF-IAST | Pak-Austria Fachhochschule</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700;900&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav>
+    <a href="#home" class="nav-logo">
+      <div class="nav-logo-box">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/PAF-IAST_logo.png/220px-PAF-IAST_logo.png"
+             alt="PAF-IAST Logo"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <span class="logo-fallback" style="display:none">PAF</span>
+      </div>
+      <div class="nav-wordmark">
+        <strong>PAK-AUSTRIA</strong>
+        <span>Fachhochschule · IAST</span>
+      </div>
+    </a>
+    
+    <ul class="nav-links" id="navMenu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#study">Programs</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#gallery">Campus</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#international">Global</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://paf-iast.edu.pk/admissions" target="_blank" class="cta">
+          <i class="fas fa-pen-to-square"></i> Apply 2026
+        </a>
+      </li>
+    </ul>
+    <button class="hamburger" onclick="toggleNav()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="home">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1562774053-701939374585?w=1800&q=80&auto=format&fit=crop"
+           alt="Campus">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-noise"></div>
+    <div class="hero-rings"></div>
+
+    <div class="hero-left">
+      <div class="hero-pill"><span></span> Admissions Open — Fall 2026</div>
+      <h1 class="hero-h1">Pak-Austria<br><span class="line2">Fachhochschule</span></h1>
+      <p class="hero-sub">Institute of Applied Sciences and Technology — bringing the Austrian Fachhochschule model to Pakistan's heart, in Haripur, KPK. Where ambition meets excellence.</p>
+      <div class="hero-btns">
+        <a href="#admissions" class="btn-fill"><i class="fas fa-graduation-cap"></i> Apply Now</a>
+        <a href="#study" class="btn-line"><i class="fas fa-book-open"></i> Explore Programs</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-panel">
+        <div class="panel-heading">PAF-IAST at a Glance</div>
+        <div class="panel-sub">Institute highlights — 2026</div>
+        <div class="stats-2x2">
+          <div class="stat-box"><div class="stat-num">70</div><div class="stat-lbl">PhD Faculty</div></div>
+          <div class="stat-box"><div class="stat-num">4,206</div><div class="stat-lbl">Students</div></div>
+          <div class="stat-box"><div class="stat-num">132</div><div class="stat-lbl">International</div></div>
+          <div class="stat-box"><div class="stat-num">484</div><div class="stat-lbl">Alumni</div></div>
+        </div>
+        <hr class="panel-divider">
+        <div class="panel-tags">
+          <span class="ptag">HEC Chartered</span><span class="ptag">Austrian Model</span>
+          <span class="ptag">Green Campus</span><span class="ptag">Tech Park</span>
+          <span class="ptag">Haripur, KPK</span><span class="ptag">Est. 2020</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about" class="sec">
+    <div class="about-wrap reveal">
+      <div class="about-img-wrap">
+        <div class="about-img">
+          <img src="images.png/soul.jpg"
+               alt="PAF-IAST Campus"
+               onerror="this.style.display='none'">
+          <div class="about-img-overlay"></div>
+        </div>
+        <div class="about-badge">Est.<br>2020<br><small>HEC Chartered</small></div>
+      </div>
+      <div>
+        <p class="sec-lbl">Our Story</p>
+        <h2 class="sec-h2">Austrian Excellence, Pakistani Soul</h2>
+        <p class="sec-desc">PAF-IAST is Pakistan's first applied sciences university modeled on the Austrian Fachhochschule system — purpose-built, industry-integrated, and internationally connected in Haripur, KPK.</p>
+        <ul class="about-list">
+          <li><i class="fas fa-circle-check"></i><span>Smart classrooms and advanced laboratories on a purpose-built green campus</span></li>
+          <li><i class="fas fa-circle-check"></i><span>Every faculty member trained in Austria or China — avg. USD 50,000 research grant</span></li>
+          <li><i class="fas fa-circle-check"></i><span>Mandatory industry internships every semester for real-world experience</span></li>
+          <li><i class="fas fa-circle-check"></i><span>Equal opportunity for all — women especially encouraged to join any program</span></li>
+          <li><i class="fas fa-circle-check"></i><span>Scholarships and financial aid for deserving students on merit and need basis</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROGRAMS SECTION ===== -->
+  <section id="study" class="sec">
+    <div class="reveal">
+      <p class="sec-lbl">Academic Excellence</p>
+      <h2 class="sec-h2">Programs Built for Tomorrow</h2>
+      <p class="sec-desc">Industry-aligned degrees combining theoretical depth, hands-on labs, and international exposure.</p>
+    </div>
+    <div class="prog-grid reveal">
+
+      <div class="prog-card">
+        <div class="prog-card-img">
+          <img src="images.png/Computer Science.avif" alt="Computer Science">
+          <div class="prog-card-img-overlay"></div>
+          <div class="prog-card-icon-badge">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+        </div>
+        <div class="prog-body">
+          <h3>Computer Science</h3>
+          <p>Software engineering, AI, cybersecurity, and data science with Sino-Pak AI research center support.</p>
+          <div class="prog-tags"><span class="prog-tag">BS</span><span class="prog-tag">MS</span><span class="prog-tag">PhD</span></div>
+        </div>
+      </div>
+
+      <div class="prog-card">
+        <div class="prog-card-img">
+          <img src="images.png/Engineering.avif" alt="Engineering">
+          <div class="prog-card-img-overlay"></div>
+          <div class="prog-card-icon-badge">
+            <i class="fas fa-cogs"></i>
+          </div>
+        </div>
+        <div class="prog-body">
+          <h3>Engineering</h3>
+          <p>Mechanical, electrical, civil and industrial engineering with Railway & Transportation specializations.</p>
+          <div class="prog-tags"><span class="prog-tag">BS</span><span class="prog-tag">MS</span><span class="prog-tag">PhD</span></div>
+        </div>
+      </div>
+
+      <div class="prog-card">
+        <div class="prog-card-img">
+          <img src="images.png/Business Analytics.avif" alt="Business Analytics">
+          <div class="prog-card-img-overlay"></div>
+          <div class="prog-card-icon-badge">
+            <i class="fas fa-chart-line"></i>
+          </div>
+        </div>
+        <div class="prog-body">
+          <h3>Business Analytics</h3>
+          <p>Data-driven business education in analytics, management, and entrepreneurship for the modern economy.</p>
+          <div class="prog-tags"><span class="prog-tag">BS</span><span class="prog-tag">MS</span></div>
+        </div>
+      </div>
+
+      <div class="prog-card">
+        <div class="prog-card-img">
+          <img src="images.png/Food Tech.jpg" alt="Agriculture">
+          <div class="prog-card-img-overlay"></div>
+          <div class="prog-card-icon-badge">
+            <i class="fas fa-seedling"></i>
+          </div>
+        </div>
+        <div class="prog-body">
+          <h3>Agriculture & Food Tech</h3>
+          <p>Modern agriculture sciences, food technology and mineral resource engineering for Pakistan's future.</p>
+          <div class="prog-tags"><span class="prog-tag">BS</span><span class="prog-tag">MS</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== RESEARCH SECTION ===== -->
+  <section id="research" class="sec">
+    <div class="reveal">
+      <p class="sec-lbl" style="color:rgba(251,191,36,.8)">Innovation & Discovery</p>
+      <h2 class="sec-h2">Research Centers of Excellence</h2>
+      <p class="sec-desc">World-class facilities driving technological breakthroughs and shaping Pakistan's future.</p>
+    </div>
+    <div class="res-grid reveal">
+
+      <div class="res-card">
+        <div class="res-card-img">
+          <img src="images.png/transport railway.avif" alt="Railway">
+          <div class="res-card-img-overlay"></div>
+          <div class="res-icon-badge"><i class="fas fa-train"></i></div>
+        </div>
+        <div class="res-body">
+          <h3>Center of Excellence in Transportation & Railway Engineering</h3>
+          <p>Pioneering research in railway systems and transportation infrastructure for Pakistan's connectivity.</p>
+        </div>
+      </div>
+
+      <div class="res-card">
+        <div class="res-card-img">
+          <img src="images.png/AI.avif" alt="AI">
+          <div class="res-card-img-overlay"></div>
+          <div class="res-icon-badge"><i class="fas fa-brain"></i></div>
+        </div>
+        <div class="res-body">
+          <h3>Sino-Pak Center for Artificial Intelligence</h3>
+          <p>Joint Pakistan-China hub advancing AI, machine learning and intelligent systems research.</p>
+        </div>
+      </div>
+
+      <div class="res-card">
+        <div class="res-card-img">
+          <img src="images.png/MRE.avif" alt="Minerals">
+          <div class="res-card-img-overlay"></div>
+          <div class="res-icon-badge"><i class="fas fa-gem"></i></div>
+        </div>
+        <div class="res-body">
+          <h3>Mineral Resource Engineering</h3>
+          <p>Sustainable exploration and utilization of Pakistan's vast mineral and natural resource wealth.</p>
+        </div>
+      </div>
+
+      <div class="res-card">
+        <div class="res-card-img">
+          <img src="images.png/technology centre.avif" alt="Nano Tech">
+          <div class="res-card-img-overlay"></div>
+          <div class="res-icon-badge"><i class="fas fa-atom"></i></div>
+        </div>
+        <div class="res-body">
+          <h3>Nano-Technology Center</h3>
+          <p>Advanced nano-materials research with applications in medicine, electronics and clean energy.</p>
+        </div>
+      </div>
+
+      <div class="res-card">
+        <div class="res-card-img">
+          <img src="images.png/Agriculture Food.avif" alt="Agriculture">
+          <div class="res-card-img-overlay"></div>
+          <div class="res-icon-badge"><i class="fas fa-leaf"></i></div>
+        </div>
+        <div class="res-body">
+          <h3>Agriculture Food Technologies</h3>
+          <p>Innovative agri-tech solutions for food security and sustainable farming across Pakistan.</p>
+        </div>
+      </div>
+
+      <div class="res-card">
+        <div class="res-card-img">
+          <img src="images.png/Tech Park.avif" alt="Tech Park">
+          <div class="res-card-img-overlay"></div>
+          <div class="res-icon-badge"><i class="fas fa-microchip"></i></div>
+        </div>
+        <div class="res-body">
+          <h3>Special Technology Zone & Tech Park</h3>
+          <p>Faculty receive avg. USD 50,000 grants to commercialize innovation through the Technology Park.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== GALLERY SECTION ===== -->
+  <section id="gallery" class="sec">
+    <div class="reveal">
+      <p class="sec-lbl" style="color:rgba(251,191,36,.8)">Campus Life</p>
+      <h2 class="sec-h2">A Campus Like No Other</h2>
+      <p class="sec-desc">Green, modern, and purpose-built — PAF-IAST's campus is designed to inspire greatness.</p>
+    </div>
+    <div class="gallery-grid reveal">
+      <div class="g-item big">
+        <img src="images.png/8.jpg" alt="Main Campus">
+        <div class="g-overlay"></div>
+        <span class="g-label"><i class="fas fa-camera"></i> Main Campus</span>
+      </div>
+      <div class="g-item">
+        <img src="images.png/9.jpg" alt="Library">
+        <div class="g-overlay"></div>
+        <span class="g-label">Central Library</span>
+      </div>
+      <div class="g-item">
+        <img src="images.png/10.jpg" alt="Labs">
+        <div class="g-overlay"></div>
+        <span class="g-label">Research Labs</span>
+      </div>
+      <div class="g-item">
+        <img src="images.png/4.jpeg" alt="Students">
+        <div class="g-overlay"></div>
+        <span class="g-label">Student Life</span>
+      </div>
+      <div class="g-item">
+        <img src="images.png/11.jpg" alt="Sports">
+        <div class="g-overlay"></div>
+        <span class="g-label">Sports Facilities</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEWS SECTION ===== -->
+  <section id="news" class="sec" style="background:var(--white)">
+    <div class="reveal">
+      <p class="sec-lbl">Latest Updates</p>
+      <h2 class="sec-h2">News, Events & Insights</h2>
+      <p class="sec-desc">Stay connected with what's happening across PAF-IAST's vibrant campus community.</p>
+    </div>
+    <div class="news-grid reveal">
+
+      <div class="news-card">
+        <div class="news-thumb">
+          <img src="images.png/4.jpeg" alt="Event">
+          <div class="news-thumb-overlay"></div>
+          <span class="news-cat-pill">Event</span>
+        </div>
+        <div class="news-body">
+          <div class="news-cat"><i class="fas fa-calendar"></i> Feb 20, 2026</div>
+          <h3>Teaching & Learning for Gen Z and Alpha Generation Learners</h3>
+          <p class="news-meta"><i class="fas fa-clock"></i> 10:00 am – 12:00 pm · B2 Multipurpose Hall</p>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-thumb">
+          <img src="images.png/12.jpg" alt="Workshop">
+          <div class="news-thumb-overlay"></div>
+          <span class="news-cat-pill">Workshop</span>
+        </div>
+        <div class="news-body">
+          <div class="news-cat"><i class="fas fa-calendar"></i> Feb 19, 2026</div>
+          <h3>Flipped Classroom Model of Teaching — Faculty Development</h3>
+          <p class="news-meta"><i class="fas fa-clock"></i> 1:00 pm – 3:00 pm · B2 Multipurpose Hall</p>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-thumb">
+          <img src="images.png/3.jpeg" alt="Seminar">
+          <div class="news-thumb-overlay"></div>
+          <span class="news-cat-pill">Seminar</span>
+        </div>
+        <div class="news-body">
+          <div class="news-cat"><i class="fas fa-calendar"></i> Feb 03, 2026</div>
+          <h3>Intellectual Property Rights — Faculty Awareness Session</h3>
+          <p class="news-meta"><i class="fas fa-clock"></i> 11:40 am – 1:30 pm · B2 Multipurpose Hall</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== INTERNATIONAL SECTION ===== -->
+  <section id="international" class="sec">
+    <div class="reveal">
+      <p class="sec-lbl">Global Reach</p>
+      <h2 class="sec-h2">Beyond Borders, Beyond Limits</h2>
+      <p class="sec-desc">Exchange programs, joint research, and a welcoming campus for international students from around the world.</p>
+    </div>
+    <div class="intl-wrap reveal">
+      <div class="partner-grid">
+
+        <div class="p-card">
+          <div class="p-card-img">
+            <img src="https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=400&q=80&auto=format&fit=crop" alt="Austria">
+            <div class="p-card-img-overlay"></div>
+            <i class="fas fa-flag"></i>
+          </div>
+          <div class="p-card-info"><h4>Austria</h4><small>Founding Partner</small></div>
+        </div>
+
+        <div class="p-card">
+          <div class="p-card-img">
+            <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=400&q=80&auto=format&fit=crop" alt="Germany">
+            <div class="p-card-img-overlay"></div>
+            <i class="fas fa-flag"></i>
+          </div>
+          <div class="p-card-info"><h4>Germany</h4><small>Academic Exchange</small></div>
+        </div>
+
+        <div class="p-card">
+          <div class="p-card-img">
+            <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=400&q=80&auto=format&fit=crop" alt="China">
+            <div class="p-card-img-overlay"></div>
+            <i class="fas fa-flag"></i>
+          </div>
+          <div class="p-card-info"><h4>China</h4><small>AI Research Hub</small></div>
+        </div>
+
+        <div class="p-card">
+          <div class="p-card-img">
+            <img src="https://images.unsplash.com/photo-1501466044931-62695aada8e9?w=400&q=80&auto=format&fit=crop" alt="USA">
+            <div class="p-card-img-overlay"></div>
+            <i class="fas fa-flag"></i>
+          </div>
+          <div class="p-card-info"><h4>USA</h4><small>Collaboration MOU</small></div>
+        </div>
+
+        <div class="p-card">
+          <div class="p-card-img">
+            <img src="https://images.unsplash.com/photo-1562774053-701939374585?w=400&q=80&auto=format&fit=crop" alt="HEC">
+            <div class="p-card-img-overlay"></div>
+            <i class="fas fa-university"></i>
+          </div>
+          <div class="p-card-info"><h4>HEC Pakistan</h4><small>National Body</small></div>
+        </div>
+
+        <div class="p-card">
+          <div class="p-card-img">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=400&q=80&auto=format&fit=crop" alt="Partners">
+            <div class="p-card-img-overlay"></div>
+            <i class="fas fa-university"></i>
+          </div>
+          <div class="p-card-info"><h4>NUST · GIKI</h4><small>National Partners</small></div>
+        </div>
+
+      </div>
+      <ul class="intl-list">
+        <li class="intl-item"><div class="ii-icon"><i class="fas fa-plane"></i></div><div><h4>Student Exchange Programs</h4><p>Study abroad at partner universities in Austria, China, and Germany for global experience.</p></div></li>
+        <li class="intl-item"><div class="ii-icon"><i class="fas fa-globe"></i></div><div><h4>International Students Welcome</h4><p>132+ international students from across the world thriving on our campus.</p></div></li>
+        <li class="intl-item"><div class="ii-icon"><i class="fas fa-flask"></i></div><div><h4>Joint Research & Tech Transfer</h4><p>Collaborative R&D for human resource development and technology transfer.</p></div></li>
+        <li class="intl-item"><div class="ii-icon"><i class="fas fa-gem"></i></div><div><h4>Scholarships & Financial Aid</h4><p>Local and foreign scholarships on merit and need — financial aid for deserving students.</p></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== ADMISSIONS SECTION ===== -->
+  <section id="admissions" class="sec">
+    <div class="adm-wrap reveal">
+      <div>
+        <p class="sec-lbl" style="color:rgba(251,191,36,.8)">Join Us</p>
+        <h2 class="sec-h2">Admissions Open 2026</h2>
+        <p class="sec-desc">At PAF-IAST, we welcome students from all backgrounds regardless of gender, ethnicity, or financial status. Female students are especially encouraged to join any program of their choice.</p>
+        <div class="adm-perks">
+          <div class="adm-perk"><i class="fas fa-users"></i> Equal opportunity</div>
+          <div class="adm-perk"><i class="fas fa-venus"></i> Female-friendly campus</div>
+          <div class="adm-perk"><i class="fas fa-gem"></i> Merit scholarships</div>
+          <div class="adm-perk"><i class="fas fa-briefcase"></i> Internships</div>
+          <div class="adm-perk"><i class="fas fa-globe"></i> International exposure</div>
+          <div class="adm-perk"><i class="fas fa-microscope"></i> Advanced labs</div>
+        </div>
+      </div>
+      <div class="adm-box">
+        <h3>Apply for 2026</h3>
+        <p>Undergraduate & Graduate programs now open</p>
+        <a href="https://paf-iast.edu.pk" target="_blank" class="adm-apply-btn">
+          <i class="fas fa-pen-to-square"></i> Start Your Application
+        </a>
+        <div class="deadlines">
+          <div class="dl-row"><span>Early Admission</span><strong>March 31, 2026</strong></div>
+          <div class="dl-row"><span>Regular Deadline</span><strong>May 30, 2026</strong></div>
+          <div class="dl-row"><span>Late Applications</span><strong>July 15, 2026</strong></div>
+          <div class="dl-row"><span>Semester Starts</span><strong>September 2026</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact" class="sec">
+    <div class="reveal">
+      <p class="sec-lbl">Get in Touch</p>
+      <h2 class="sec-h2">Contact us</h2>
+      <p class="sec-desc">Reach out for admissions queries, academic information, or any other inquiries.</p>
+    </div>
+    <div class="contact-wrap reveal">
+      <div class="c-info">
+        <div class="ci-card">
+          <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div><h4>Campus Address</h4><p>Khanpur Road, Mang Haripur<br>Khyber Pakhtunkhwa, Pakistan</p></div>
+        </div>
+        <div class="ci-card">
+          <div class="ci-icon"><i class="fas fa-phone"></i></div>
+          <div>
+            <h4>Phone & Fax</h4>
+            <a href="tel:0995111723278">0995-111 723 278</a>
+            <a>Fax: +92-995-645117</a>
+          </div>
+        </div>
+        <div class="ci-card">
+          <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:info@paf-iast.edu.pk">info@paf-iast.edu.pk</a>
+          </div>
+        </div>
+        <div class="ci-card">
+          <div class="ci-icon"><i class="fas fa-clock"></i></div>
+          <div><h4>Office Hours</h4><p>Monday – Friday: 8:00 AM – 4:30 PM</p></div>
+        </div>
+      </div>
+      <div>
+        <form class="c-form" id="contactForm">
+          <div class="form-row2">
+            <input type="text" id="fname" placeholder="Your Full Name" required>
+            <input type="email" id="femail" placeholder="Email Address" required>
+          </div>
+          <input type="tel" id="fphone" placeholder="Phone Number (optional)">
+          <select id="fsubject" required>
+            <option value="">— Select Area of Inquiry —</option>
+            <option>Admissions 2026</option>
+            <option>Programs & Courses</option>
+            <option>Scholarships & Financial Aid</option>
+            <option>International Students</option>
+            <option>Research Collaboration</option>
+            <option>Technology Park</option>
+            <option>Other</option>
+          </select>
+          <textarea id="fmessage" placeholder="Write your message here..." required></textarea>
+          <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+        </form>
+        <div class="form-success" id="formSuccess">
+          <div class="success-icon"><i class="fas fa-circle-check"></i></div>
+          <h3>Message Sent!</h3>
+          <p>Thank you for reaching out to PAF-IAST. Our team will get back to you within 1–2 working days.</p>
+          <button class="reset-btn" onclick="resetForm()"><i class="fas fa-rotate-left"></i> Send Another Message</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="foot-inner">
+      <div class="foot-brand">
+        <h2>PAF<span class="hi">-IAST</span></h2>
+        <span class="tag">Pak-Austria Fachhochschule · Institute of Applied Sciences & Technology</span>
+        <p>Transforming Pakistan's youth into a national dividend through applied sciences, technology, and global collaboration from the heart of KPK.</p>
+        <div class="socials">
+          <a href="https://facebook.com/pafiast" target="_blank" class="soc" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://linkedin.com/school/paf-iast" target="_blank" class="soc" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.youtube.com/@pafiast862" target="_blank" class="soc" title="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="https://instagram.com/pafiast" target="_blank" class="soc" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4>Our Campus</h4>
+        <a href="#">Green Campus</a><a href="#">Our History</a><a href="#">Vision & Mission</a><a href="#">Infrastructure</a><a href="#">Video Gallery</a>
+      </div>
+      <div class="foot-col">
+        <h4>Quick Links</h4>
+        <a href="#">Departments</a><a href="#">International Office</a><a href="#">Central Library</a><a href="#">Technology Park</a><a href="#">Student Portals</a><a href="#">Tenders & Careers</a>
+      </div>
+      <div class="foot-col">
+        <h4>Research</h4>
+        <a href="#">Railway Engineering</a><a href="#">Sino-Pak AI Center</a><a href="#">Mineral Resources</a><a href="#">Nano-Technology</a><a href="#">Agri Food Tech</a><a href="#">Special Tech Zone</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© 2026 PAF-IAST — All rights reserved | Last Updated: 20 February 2026</p>
+      <div class="foot-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="https://paf-iast.edu.pk" target="_blank">paf-iast.edu.pk ↗</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
